@@ -1,8 +1,11 @@
 {
-  "name": "GruposTravel",
+  "name": "grupostravel_back",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines":{
+    "node": "14.17.6"
+  },
   "scripts": {
     "start": "node app.js",
     "dev" : "nodemon app.js",
