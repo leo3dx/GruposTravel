@@ -18,8 +18,4 @@ router.post('/', cnfTipoFactorPost );
 router.delete('/:id', cnfTipoFactorDelete );
 
 
-
-
-
-
 module.exports = router;

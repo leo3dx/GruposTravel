@@ -1,7 +1,6 @@
-const { response, request } = require('express');
 const CnfTipoFactor = require('../models/CnfTipoFactor');
 
-const cnfTipoFactorGet = (req = request, res = response) => {
+const cnfTipoFactorGet = (req, res) => {
 
     new CnfTipoFactor().getCnfTipoFactor()
     .then(response => {
