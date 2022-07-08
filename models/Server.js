@@ -5,7 +5,7 @@ class Server {
 
     constructor() {
         this.app  = express();
-        this.port = 3001 || process.env.PORT;
+        this.port = process.env.PORT || 3001;
         this.cnfTipoFactor = '/api/cnfTipoFactor';
         this.cnfMoneda = '/api/cnfMoneda';
         this.cnfFactorCambio = '/api/cnfFactorCambio';
