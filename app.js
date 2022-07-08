@@ -1,5 +1,5 @@
 const Database = require('./models/Database');
-const Server = require('./models/server');
+const Server = require('./models/Server');
 // const TrmApi = require('trm-api').default;
 
 // const trmApi = new TrmApi('GBgFkFvGMNdD8U8OVHVK0X9fY');
